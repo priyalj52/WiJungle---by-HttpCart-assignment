@@ -240,25 +240,8 @@ const AreaCards = () => {
         severityData={severityData}
         cardInfo={cardInfo}
       />
-      {/* <AreaCard
-        colors={["#e4e8ef", "#4ce13f"]}
-        percentFillValue={50}
-        cardInfo={{
-          title: "Most used category",
-          value: "$8.2K",
-          text: "Available to payout",
-        }}
-      />
-      <AreaCard
-        colors={["#e4e8ef", "#f29a2e"]}
-        percentFillValue={40}
-        cardInfo={{
-          title: "",
-          value: "$18.2K",
-          text: "Available to payout",
-        }}
-      /> */}
-      {/* <AreaCard
+      
+       <AreaCard
         colors={colors}
         severityData={additionalCategoryData}
         cardInfo={{
@@ -266,7 +249,7 @@ const AreaCards = () => {
           value: `${additionalCategoryData.reduce((total, entry) => total + entry.count, 0)} Alerts`,
           text: "Distribution of alerts by category."
         }}
-      /> */}
+      /> 
       {/* <AreaCard
         colors={colors}
         severityData={additionalCategoryData}
